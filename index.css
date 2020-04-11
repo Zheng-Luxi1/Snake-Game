@@ -1,0 +1,65 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #242424;
+}
+
+canvas {
+	position: fixed;
+	left: 5px;
+	top: 5px;
+	
+	border: 5px solid #69C;
+}
+
+#data {
+	width: 250px;
+	height: 370px;
+
+	position: absolute;
+	top: 10px;
+	right: 20px;
+
+	font: italic normal bold 25px Consolas;
+	text-align: center;
+	color: white;
+
+	opacity: 0.3;
+}
+
+#speed {
+	display: block;
+	width: 200px;
+	
+	position: absolute;
+	left: 50%;
+	
+	transform: translateX( -50% ) rotate( 180deg );
+}
+
+#start {
+	display: block;
+	width: 550px;
+	height: 300px;
+	background-color: #69C;
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	border: 0;
+	border-radius: 20px;
+	
+	font: italic normal bold 75px Consolas;
+	color: #fff;
+	
+	transform: translate( -50%, -50% );
+	transition: all .1s linear 0s;
+}
+
+#start:hover {
+	background-color: #aaf;
+}

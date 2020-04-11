@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html, charset=utf-8">
+	<title>Snake Game</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<canvas id="canvas">您的浏览器暂不支持canvas画布, 请及时更换</canvas>
+	<div id="data">
+		蛇身长度 : <span id="length">null</span>
+		<br>
+		增加长度 : <span id="food">null</span>
+		<br>
+		改变蛇体移动速度 
+		<br>
+		<input type="range" id="speed" min="0" max="30" step="1" value="5">
+		<br>
+	</div>
+	<button id="start">Start Game</button>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
