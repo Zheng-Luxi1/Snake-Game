@@ -2,7 +2,7 @@
 贪吃蛇游戏    
 
 
-Using Language
+Using Language:
 1. HTML
 2. CSS
 3. JS
